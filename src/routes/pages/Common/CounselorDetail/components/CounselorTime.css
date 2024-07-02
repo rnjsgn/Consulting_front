@@ -1,0 +1,45 @@
+.counselortime-container {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #EFEFEF;
+
+    width: 100%;
+
+    padding: 0.7rem;
+
+    text-align: center;
+    align-items: center;
+}
+
+.counselortime-container .content {
+    display: flex;
+
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    color: #1AB8BE;
+
+    padding-bottom: 0.5rem;
+}
+
+.counselortime-container .time {
+    display: flex;
+
+    align-items: center;
+
+    font-size: 0.7rem;
+
+    .time-title {
+        font-size: 0.8rem;
+        font-weight: bold;
+
+        align-self: center;
+
+        padding-right: 0.5rem;
+    }
+
+    .during-time {
+        padding-left: 0.5rem;
+    }
+}

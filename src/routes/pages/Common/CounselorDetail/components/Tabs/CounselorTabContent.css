@@ -1,0 +1,55 @@
+.counselor-tab-container {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+}
+
+.counselor-tab-container .counselor-tab-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.counselor-tab-container .tab-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tab-box .tab-title-box {
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    justify-content: center;
+
+    color: #FA709A;
+
+    .read {
+        font-size: 0.7rem;
+        font-weight: normal;
+
+        align-self: center;
+    }
+}
+
+.tab-box .tab-content-box {
+    width: 100%;
+    height: 100%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #e0e3e8;
+    background-color: #e0e3e8;
+    line-height: 1.5rem;
+}
+
+.ant-tabs-tab-active {
+    color: var(--sub-bg-color);
+}

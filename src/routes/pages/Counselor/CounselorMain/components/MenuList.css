@@ -1,0 +1,70 @@
+.mymenu-tab {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+
+    /* min-width: 360px; */
+    max-width: 410px;
+    width: 100%;
+    /* height: 100%; */
+    /* min-height: 360px; */
+    max-height: 410px;
+}
+
+.mymenu-tab .mymenu-title {
+    font-weight: bold;
+    padding: 0.2rem;
+    margin: 0.4rem 0;
+}
+
+.mymenu-tab .mymenu-grid {
+    /* width: 100%; */
+    display: grid;
+    justify-items: center;
+
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(1, 1fr); */
+
+    /* grid-gap: 0.75rem; */
+    width: 100%;
+    height: 17vh;
+
+    /* border-bottom: 1px solid #DDDDDD; */
+}
+
+.mymenu-tab .menu-item {
+    width: 100%;
+    height: 100%;
+    /* border: 1.5px solid #E4E4E4; */
+    /* border-radius: 12px 12px 12px 12px; */
+    /* box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08); */
+
+    /* background-color: #EFEFEF; */
+
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.mymenu-tab .menu-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.mymenu-tab .menu-item-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #666666;
+
+    width: 100%;
+    height: 100%;
+
+    gap: 0.3rem;
+
+
+}

@@ -1,0 +1,30 @@
+.Banner-container {
+    width: 100%;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.Banner-container img {
+    width: 100%;
+}
+
+.Banner-container .Banner-button {
+    width: 100%;
+}
+
+.Banner-container .Banner-button button{
+    /* position: absolute;
+
+    top: 82%;
+    left: 6%; */
+
+    width: 100%;
+
+    background-color: #FEE140;
+    color: black;
+
+    border: #FEE140;
+}

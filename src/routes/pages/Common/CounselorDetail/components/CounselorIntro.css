@@ -1,0 +1,89 @@
+.counselor-intro-container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .counselor-intro-container>div {
+    width: 100%;
+} */
+
+/* .ant-tabs {
+    width: 100%;
+    padding: 0 1rem;
+} */
+
+/* .ant-tabs-nav .ant-tabs-nav-wrap {
+    display: flex;
+    justify-content: center;
+} */
+
+/* :where(.css-dev-only-do-not-override-1rqnfsa).ant-tabs .ant-tabs-ink-bar {
+    탭 목록 밑줄 색깔
+    background: #00cc8f;
+} */
+
+.counselor-intro-container .counselor-intro-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+.counselor-intro-container .counselor-intro-button {
+    display: flex;
+
+    border-bottom: 1px solid #EEEEEE;
+
+    /* margin-bottom: 1rem; */
+}
+
+.counselor-intro-container .counselor-intro-button button {
+    display: flex;
+
+    margin: 0.25rem;
+}
+
+.counselor-intro-container .counselor-intro-title {
+    display: flex;
+    align-items: center;
+
+    font-weight: bold;
+    color: #FA709A;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 1rem;
+}
+
+.counselor-intro-container .counselor-intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    width: 100%;
+
+    padding: 1rem;
+
+    border-bottom: 10px solid #EEEEEE;
+
+    /* background-color: #EEEEEE; */
+}
+
+.counselor-intro-container .counselor-intro-content img {
+    width: 50%;
+}
+
+.counselor-intro-container .content-br {
+    white-space: pre-wrap;
+
+    /* text-align: center; */
+
+    font-size: 0.8rem;
+}

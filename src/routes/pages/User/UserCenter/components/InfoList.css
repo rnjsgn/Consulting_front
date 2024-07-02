@@ -1,0 +1,51 @@
+.infolist-container {
+    display: flex;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+
+    padding: 1rem;
+
+    flex-direction: column;
+}
+
+.infolist-container .title{
+    display: flex;
+
+    align-items: center;
+
+    padding-bottom: 1rem;
+}
+
+.infolist-container .title span{
+    font-size: 0.7rem;
+
+    font-weight: bold;
+}
+
+.infolist-container .new {
+    background-color: #FA709A;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+
+    padding: 0.3rem;
+    margin-right: 0.2rem;
+}
+
+.infolist-container .counselor-content {
+    font-size: 0.8rem;
+
+    color: #8E8E8E;
+
+    padding-bottom: 0.5rem;
+}
+
+.infolist-container .counselor-create {
+    font-size: 0.9rem;
+
+    color: #8E8E8E;
+}

@@ -1,0 +1,14 @@
+.counselor-body-layout {
+
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.counselor-body-layout .ant-row {
+    margin: 12px 0;
+}
+
+/* 
+.counselor-body-layout .ant-row:nth-child(2){
+    margin: 12px 0 ;
+} */

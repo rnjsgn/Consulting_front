@@ -1,0 +1,45 @@
+.signup-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    width: 100%;
+}
+
+/* .signup-input-container .signup-input-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+.input-phone-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    width: 100%;   
+}
+
+.input-phone-container .input-phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    width: 100%;
+}
+
+.input-phone-container .input-phone>div:nth-child(1) {
+    flex: 2;
+}
+
+.input-phone-container .input-phone>div:nth-last-child(1) {
+    flex: 9;
+}
+
+.input-phone-container .phone-notice {
+    font-size: 14pt;
+    font-weight: bold;
+}

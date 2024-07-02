@@ -1,0 +1,51 @@
+.writebox-container {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+
+.writebox-container .writebox-counselor {
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 1rem 1rem 0 1rem;
+}
+
+.writebox-container .writebox-counselor span {
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    padding-bottom: 0.3rem;
+}
+
+.writebox-container .writebox-counselor textarea {
+    width: 100%;
+    
+    padding: 0.8rem 1rem 0.7rem;
+
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+
+    font-size: 0.75rem
+}
+
+.writebox-container .writebox-check {
+    margin: 1rem 1rem 0 1rem;
+
+    display: flex;
+}
+
+.writebox-container .writebox-check span {
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    padding-left: 0.3rem;
+}
+
+.writebox-container .writebox-button {
+    margin: 1rem 1rem 0 1rem;
+}

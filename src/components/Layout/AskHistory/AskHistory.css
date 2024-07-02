@@ -1,0 +1,41 @@
+.askhistory-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.askhistory-container .panel {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.askhistory-container .panel-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    width: 100%;
+
+    .panel-answer {
+        border-top: 1px dashed var(--border-color);
+        padding-top: 0.5rem;
+    }
+}
+
+.askhistory-container .panel-content .panel-answer {
+    padding-left: 1rem;
+}
+
+.askhistory-container .panel-button {
+    width: 100%;
+    margin-right: 1rem;
+    text-align: right;
+}
+
+.askhistory-container .panel-button button {
+    width: 20%;
+
+    margin-left: 0.5rem;
+}

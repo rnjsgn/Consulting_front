@@ -1,0 +1,16 @@
+.havecoin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.5rem;
+
+    width: 100%;
+    height: 100%;
+}
+
+.havecoin-container .input-coin {
+    display: flex;
+    gap: 0.5rem;
+}

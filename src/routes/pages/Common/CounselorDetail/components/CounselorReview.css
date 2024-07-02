@@ -1,0 +1,11 @@
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-btn-default {
+    background-color: #00cc8f;
+    color: white;
+
+}
+
+.Button-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

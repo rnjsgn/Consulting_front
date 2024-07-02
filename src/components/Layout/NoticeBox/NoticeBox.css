@@ -1,0 +1,42 @@
+.noticelist-container {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    padding: 1rem;
+
+    border-top: 1px solid #D9D9D9;
+}
+
+.noticelist-container .notice-top {
+    display: flex;
+
+    align-items: center;
+}
+
+.noticelist-container .notice-top span {
+    font-size: 0.7rem;
+
+    font-weight: bold;
+}
+
+.noticelist-container .notice-category {
+    background-color: #FA709A;
+    color: white;
+
+    border-radius: 5px;
+
+    padding: 0.2rem;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.noticelist-container .notice-date {
+    margin-top: 0.2rem;
+
+    color: #8e8e8e;
+
+    font-size: 0.8rem;
+}

@@ -1,0 +1,18 @@
+.counselorproduct-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    font-size: 0.8rem;
+}
+
+.counselorproduct-container .counselorproduct-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+
+    width: 100%;
+}

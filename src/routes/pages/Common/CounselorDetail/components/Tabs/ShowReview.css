@@ -1,0 +1,13 @@
+.show-review-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+
+    border-radius: 5px;
+    background-color: #00000010;
+
+    cursor: pointer;
+}

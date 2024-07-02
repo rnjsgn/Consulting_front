@@ -1,0 +1,26 @@
+.asktab-container {
+    display: flex;
+    
+    width: 100%;
+}
+
+.asktab-container .ant-tabs-nav-wrap {
+    width: 100%;
+
+    justify-content: center;
+}
+
+.asktab-container .ant-tabs-tab-btn {
+    font-weight: bold;
+}
+
+.asktab-container 
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-tabs 
+.ant-tabs-tab.ant-tabs-tab-active 
+.ant-tabs-tab-btn {
+    color: black;
+}
+
+.asktab-container .ant-tabs{
+    width: 100%;
+}

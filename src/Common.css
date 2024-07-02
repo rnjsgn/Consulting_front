@@ -1,0 +1,29 @@
+:root{
+    --main-mint-color: #84fab0;
+    --main-blue-color: #8fd3f4;
+
+    --main-bg-color :#00CC8F;
+    --sub-bg-color:#2AD8A0;
+    --button-bg-color:#5F5D5D;
+    --light-main-bg-color: #22ecb0;
+    --light-sub-bg-color:#66f1c5;
+
+    --main-btn-color: #33CFBB;
+
+    --title-color: #232527;
+    --body-color: #232527;
+    
+    --icon-color: #768085;
+    --sub-title-color: #768085;
+ 
+    --border-color: #768085;
+
+    --warning-color: #DB1D0F;
+    --emphasise-color: #B52609;
+    --table-th-color: #BFBFBF;
+
+    --light-bg-color: #d8dadb;
+
+    --nav-color: linear-gradient(160deg, #FFFFFF 100%,);
+    --nav-logo-color: linear-gradient(#FA816E, #F9D366);
+}

@@ -1,0 +1,27 @@
+.information-content {
+    display: flex;
+    flex-direction: column;
+
+    margin: 2rem;
+}
+
+.information-content h3{
+    padding-bottom: 1rem;
+}
+
+
+.items-first {
+    display: flex;
+    flex-direction: column;
+}
+
+.items-first span{
+    margin-bottom: 1rem;
+}
+
+.informationtab-container .ant-tabs-nav-wrap .ant-tabs-nav-list {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}

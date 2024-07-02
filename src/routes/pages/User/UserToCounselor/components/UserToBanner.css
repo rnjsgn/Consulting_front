@@ -1,0 +1,18 @@
+.usertobanner-container{
+    display: flex;
+
+    width: 100%;
+
+    flex-direction: column;
+    /* height: 100%; */
+}
+
+.usertobanner-container .usertobanner-img img {
+    width: 100%;
+}
+
+.usertobanner-container .usertobanner-button {
+    display: flex;
+
+    margin: 0.5rem;
+}

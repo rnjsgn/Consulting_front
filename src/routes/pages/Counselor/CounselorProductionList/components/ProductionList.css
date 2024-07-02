@@ -1,0 +1,36 @@
+.production-list-box {
+    width: 100%;
+
+    padding: 0 1rem;
+}
+
+.production-list-box .production-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    border-bottom: 1px solid #CCCCCC;
+
+    padding: 1rem 0;
+}
+
+.production-list-box .production-box div {
+    flex: 1;
+}
+
+.production-list-box .production-box:last-child {
+    border: none;
+}
+
+.production-list-box .production-box .production-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.production-list-box .production-box .production-image img {
+    width: 80%;
+    border-radius: 5px;
+}

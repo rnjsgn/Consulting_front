@@ -1,0 +1,55 @@
+.requestbox-container {
+    width: 100%;
+    /* height: 100%; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.requestbox-container .requestbox-title {
+    display: flex;
+
+    padding: 1rem;
+
+    font-weight: bold;
+
+    border-top: 5px solid #EFEFEF;
+}
+
+.requestbox-container .requestbox-table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.requestbox-container .requestbox-table th {
+    background-color: #EFEFEF;
+    color: #adaaaa;
+
+    padding: 0.6rem;
+
+    font-size: 0.6rem;
+}
+
+.requestbox-container .requestbox-table td {
+    font-size: 0.7rem;
+    font-weight: bold;
+
+    padding: 0.8rem;
+
+    text-align: center;
+
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.requestbox-container .center {
+    width: 60%;
+}
+
+.requestbox-container .add {
+    text-align: center;
+
+    padding: 0.8rem;
+
+    font-size: 0.7rem;
+    font-weight: bold;
+}
